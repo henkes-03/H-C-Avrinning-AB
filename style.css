@@ -1,3 +1,19 @@
+.meny{
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#logotyp{
+    margin-left: 5vw;
+}
+
 .row{
     border: 2px;
     border-style: solid;
