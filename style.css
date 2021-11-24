@@ -1,5 +1,4 @@
 .meny{
-    width: 100vw;
     height: 10vh;
 
     display: flex;
@@ -15,6 +14,23 @@
 }
 
 .row{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.storsäljare{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.produktbild{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 100px 69px; 
+
     border: 2px;
     border-style: solid;
     border-color: black;
