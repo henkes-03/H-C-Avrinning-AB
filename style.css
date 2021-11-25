@@ -26,7 +26,11 @@
 
 .storsäljare{
     display: flex;
+<<<<<<< HEAD
     justify-content: center;   
+=======
+    justify-content: center;
+>>>>>>> e2363b5413e5ac5dd5e61edb6a7626b8f8ebbb92
 }
 
 .produktbild{
