@@ -25,11 +25,12 @@
 }
 
 .storsäljare{
-    border: 2px;
+   
     border-style: solid;
     border-color: black;
     display: flex;
     justify-content: center;
+    
     
 }
 
