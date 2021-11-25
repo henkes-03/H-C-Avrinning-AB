@@ -29,6 +29,7 @@
     justify-content: center;
     
     
+    
 }
 
 .produktbild{
@@ -40,5 +41,9 @@
     border: 2px;
     border-style: solid;
     border-color: black;
-    margin: 10px;
+    margin: 20px;
+}
+
+#rubrik1{
+    margin-top: 10px;
 }
