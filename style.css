@@ -26,10 +26,7 @@
 
 .storsäljare{
     display: flex;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;   
 }
 
 .produktbild{
@@ -46,4 +43,6 @@
 
 #rubrik1{
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
