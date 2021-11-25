@@ -50,4 +50,8 @@ footer{
     border: 2px;
     border-style: solid;
     border-color: black;
+    height: 40px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
