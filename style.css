@@ -27,6 +27,12 @@
 .storsäljare{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
+=======
+    
+    
+    
+>>>>>>> 79091522bb0fbdb78a465084b26608adeaa50638
 }
 
 .produktbild{
@@ -38,5 +44,9 @@
     border: 2px;
     border-style: solid;
     border-color: black;
-    margin: 10px;
+    margin: 20px;
+}
+
+#rubrik1{
+    margin-top: 10px;
 }
