@@ -30,6 +30,7 @@
 }
 
 .produktbild{
+    margin: 20px;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@
     border: 2px;
     border-style: solid;
     border-color: black;
-    margin: 20px;
+    border-radius: 25px;
 }
 
 #rubrik1{
@@ -47,11 +48,12 @@
 }
 
 footer{
-    border: 2px;
-    border-style: solid;
-    border-color: black;
     height: 100px;
     position:absolute;
     bottom: 0;
     width: 100%;
+
+    border: 2px;
+    border-style: solid;
+    border-color: black;
 }
