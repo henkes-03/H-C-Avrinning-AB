@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #C0C0C0;
 }
 
 .meny{
@@ -12,6 +13,7 @@
     border: 2px;
     border-style: solid;
     border-color: black;
+    background-color: #7B7B7B;
 }
 
 #logotyp{
@@ -28,6 +30,8 @@
 .storsäljare{
     display: flex;
     justify-content: center;
+    background-color: #C0C0C0;
+    
 }
 
 .produktbild{
@@ -42,6 +46,8 @@
     border-style: solid;
     border-color: black;
     border-radius: 25px;
+    background-color: black;
+    color: whitesmoke;
 }
 
 #rubrik1{
@@ -58,4 +64,6 @@ footer{
     border: 2px;
     border-style: solid;
     border-color: black;
+    background-color: #7B7B7B;
 }
+
