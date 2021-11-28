@@ -13,7 +13,7 @@
     border: 2px;
     border-style: solid;
     border-color: black;
-    background-color: #7B7B7B;
+    background-color: black;
 }
 
 #logotyp{
@@ -30,7 +30,7 @@
 .storsäljare{
     display: flex;
     justify-content: center;
-    background-color: #C0C0C0;
+    background-color: #303030;
     
 }
 
