@@ -73,4 +73,9 @@ footer{
     border-color: black;
     background-color: #7B7B7B;
 }
-
+#funny{
+    float: right;
+    height: 10%;
+    width: 1%;
+    
+}
