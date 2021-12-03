@@ -118,3 +118,19 @@ footer{
 html{
     background-color: #303030;
 }
+.logga{
+    width: 10vh;
+    background-color: black;
+}
+
+.butikerh1{
+    margin: 0;
+    background-color: #303030;
+    color: white;
+}
+
+.butikerh3{
+    margin: 0;
+    background-color: #303030;
+    color: white;
+}

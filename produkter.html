@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,7 @@
     <div class="meny">
 
         <div id="logotyp">
-            <h3>Logotyp</h3>
+            <img class="logga" src="pictures/logo.png" alt="logotyp">
         </div>
 
         <div class="container">
@@ -29,55 +30,82 @@
             <div class="col-sm">
                 <a href="butiker.html" onclick="">Butiker</a>
             </div>
-            <div class="col-sm">
-                <a href="kundtjänst.html">Kundtjänst</a>
-            </div>
             </div>
         </div>
     </div>
-
+    <script>
+        function copp(){
+            alert("Grattis, du har köpt en bra produkt")
+        }
+        
+    </script>
     <!-- Våra storsäljare -->
     <div class="storsäljare">
         <h1 id="rubrik1">Alla bilvårdsprodukter</h1>
+        
+
     </div>
 
     <!-- Rad 1 -->
     <div class="storsäljare">
         <div class="produkter">
             <img src="pictures/spraylackskydd.png" alt="Produktbild">
+        
             <p>Keramiskt Spraylackskydd</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div class="produkter">
             <img src="pictures/keramisk-detailer.png" alt="Produktbild">
+            <p>Keramisk Detailer</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div id="bildtre" class="produkter">
             <img src="pictures/glasrengöring.png" alt="Produktbild">
+            <p>Glasrengöring</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div id="bildtre" class="produkter">
-            <img src="pictures/glasrengöring.png" alt="Produktbild">
+            <img src="pictures/avfettning.png" alt="Produktbild">
+            <p>Kallavfettning</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
     </div>
 
     <!-- Rad 2 -->
     <div class="storsäljare">
         <div class="produkter">
-            <img src="pictures/spraylackskydd.png" alt="Produktbild">
-            <p>Keramiskt Spraylackskydd</p>
+            <img src="pictures/alkalisk-avfettning.png" alt="Produktbild">
+            <p>Alkalisk Avfettning</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div class="produkter">
-            <img src="pictures/keramisk-detailer.png" alt="Produktbild">
+            <img src="pictures/flygrostlösare.png" alt="Produktbild">
+            <p>Flygrostlösare</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div id="bildtre" class="produkter">
-            <img src="pictures/glasrengöring.png" alt="Produktbild">
+            <img src="pictures/schampo.png" alt="Produktbild">
+            <p>Schampo med lukt av blåbär</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div id="bildtre" class="produkter">
-            <img src="pictures/glasrengöring.png" alt="Produktbild">
+            <img src="pictures/multirengöring.png" alt="Produktbild">
+            <p>Multirengöring</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
     </div>
     <footer>

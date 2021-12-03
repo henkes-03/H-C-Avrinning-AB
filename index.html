@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,7 @@
     <div class="meny">
 
         <div id="logotyp">
-            <h3>Logotyp</h3>
+            <img class="logga" src="pictures/logo.png" alt="logotyp">
         </div>
 
         <div class="container">
@@ -29,13 +30,15 @@
             <div class="col-sm">
                 <a href="butiker.html" onclick="">Butiker</a>
             </div>
-            <div class="col-sm">
-                <a href="kundtjänst.html">Kundtjänst</a>
-            </div>
             </div>
         </div>
     </div>
-
+     <script>
+    function copp(){
+        alert("Grattis, du har köpt en bra produkt")
+    }
+    
+</script>
     <!-- Våra storsäljare -->
     <div class="storsäljare">
         <h1 id="rubrik1">Våra storsäljare!</h1>
@@ -45,16 +48,21 @@
         <div class="produktbild">
             <img src="pictures/spraylackskydd.png" alt="Produktbild">
             <p>Keramiskt Spray-lackskydd</p>
+            <button onclick="copp()">KÖP</button>
         </div>
 
         <div class="produktbild">
             <img src="pictures/keramisk-detailer.png" alt="Produktbild">
             <p>Keramisk Detailer</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
 
         <div id="bildtre" class="produktbild">
             <img src="pictures/glasrengöring.png" alt="Produktbild">
             <p>Glasrengöring med avrinning</p>
+            <button onclick="copp()">KÖP</button>
+
         </div>
     </div>
     
@@ -62,5 +70,6 @@
             <img id="funny" src="https://cdn.discordapp.com/attachments/792438167696965693/911221816100544592/unknown.png" alt="funny">
     </footer>
     </div>
+
 </body>
 </html> 
