@@ -31,13 +31,28 @@
     display: flex;
     justify-content: center;
     background-color: #303030;
-    
 }
 
 .produktbild{
     margin: 20px;
     padding: 10px;
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 50px 50px; 
+
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.produkter{
+    margin: 20px;
+    padding: 10px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between 50px 50px; 
@@ -57,6 +72,13 @@
     border-radius: 15px;
 }
 
+.produkter > img{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+
 #rubrik1{
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +86,7 @@
 
 footer{
     height: 100px;
-    position:absolute;
+    position:static;
     bottom: 0;
     width: 100%;
 
@@ -81,6 +103,11 @@ footer{
 .produktbild>p{
     background-color: black;
 }
+
+.produkter>p{
+    background-color: black;
+}
+
 .storsäljare>h1{
     background-color: #303030;
     color: orange;
@@ -88,3 +115,6 @@ footer{
 .container{
     background-color: black;
 }   
+html{
+    background-color: #303030;
+}
